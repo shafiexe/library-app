@@ -23,14 +23,14 @@ export default function Home() {
             </div>
             <div className="col-lg-6">
               <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-                Responsive left-aligned hero with image
+              നെഹ്‌റു ബാലവേദി- സർഗ്ഗവേദി 
+
               </h1>
               <p className="lead">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit, featuring Sass variables and mixins, responsive grid
-                system, extensive prebuilt components, and powerful JavaScript
-                plugins.
+              കഴിഞ്ഞ 40 വർഷമായി വെള്ളിക്കോത്തിന്റെ സാംസ്‌കാരിക മുഖമാണ് നെഹ്‌റു ബാലവേദി - സർഗ്ഗവേദി...
+കുട്ടികളുടെ ബഹുസ്വരമായ കഴിവുകൾ പരിപോഷിക്കുന്നതിനും യുവാക്കളിലെ സർഗ്ഗാത്മകത വളർത്തിയെടുക്കുന്നതിനും നേതൃത്വം നൽകി വരുന്നു...
+നിരവധി ശ്രദ്ധേയമായ അമേച്വർ നാടകങ്ങൾ അരങ്ങത്തെത്തിക്കാൻ സർഗ്ഗവേദിക് കഴിഞ്ഞിട്ടുണ്ട് 
+കുട്ടികൾക്കും, നാട്ടുകാർക്കും, ഉപകാരപ്രദമാകുന്ന രീതിയിൽ നിലവാരമുള്ള വായനശാലയായി പ്രവർത്തിക്കുക എന്നതാണ് ലൈബ്രറി നവീകരണത്തിലൂടെ ഉദ്ദേശിക്കുന്നത്
               </p>
               {/* <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 <button
