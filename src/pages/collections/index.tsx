@@ -13,13 +13,14 @@ function Collections() {
   const [rows, setRows] = React.useState([]);
   const [password, setPassword] = React.useState("");
   const columns: GridColDef[] = [
-    { field: "id", headerName: "SL.No", flex: 1 },
-    { field: "name", headerName: "Book Name", flex: 2 },
-    { field: "author", headerName: "Author", flex: 2 },
+    { field: "id", headerName: "SL.No", flex: 1, minWidth: 50 },
+    { field: "name", headerName: "Book Name", flex: 2, minWidth: 120 },
+    { field: "author", headerName: "Author", flex: 2, minWidth: 120 },
     {
       field: "type",
       headerName: "Book Type",
       flex: 2,
+      minWidth: 100
     },
     {
       field: "action",
