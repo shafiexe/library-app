@@ -19,7 +19,7 @@ export default function Page() {
           <button
             type="button"
             className="btn btn-light btn-lg px-4 me-md-2"
-            onClick={() => router.push('/collections')}
+            onClick={() => router.push("/collections")}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ export default function Page() {
           <button
             type="button"
             className="btn btn-outline-light btn-lg px-4"
-            onClick={() => router.push('/add')}
+            onClick={() => router.push("/add")}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -55,4 +55,3 @@ export default function Page() {
     </>
   );
 }
-
