@@ -20,12 +20,13 @@ function Collections() {
       field: "type",
       headerName: "Book Type",
       flex: 2,
-      minWidth: 100
+      minWidth: 100,
     },
     {
       field: "action",
       headerName: "Actions",
       flex: 1,
+      minWidth: 100,
       renderCell: (params) => {
         return (
           <Button
@@ -113,7 +114,7 @@ function Collections() {
               },
             }}
             pageSizeOptions={[5, 10]}
-            checkboxSelection
+            checkboxSelection={false}
             loading={!rows.length}
           />
         </div>

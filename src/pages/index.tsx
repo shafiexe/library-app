@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import Home from "@/components/home";
 import { useRouter } from "next/router";
+import { Box } from "@mui/material";
 
 export const metadata: Metadata = {
   title: "Helthier2gether",
@@ -15,7 +16,10 @@ export default function Page() {
     <>
       <Home />
       <div className="container col-xxl-8 px-4">
-        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+        <Box
+          className="d-grid gap-2 d-md-flex justify-content-md-start"
+          mb={10}
+        >
           <button
             type="button"
             className="btn btn-light btn-lg px-4 me-md-2"
@@ -50,7 +54,7 @@ export default function Page() {
             </svg>{" "}
             Add
           </button>
-        </div>
+        </Box>
       </div>
     </>
   );
